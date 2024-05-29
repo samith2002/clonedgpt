@@ -5,7 +5,7 @@ const OpenAI = require('openai');
 const bodyParser = require('body-parser');
 const pool = require('./database');
 
-const apiKey = "sk-proj-EOuh4uZzdJxi1vtLSKfPT3BlbkFJUbqiNJOjXp3E5Q9J858z";
+const apiKey = process.env.aikey;
 const openai = new OpenAI({ apiKey });
 
 const app = express();
