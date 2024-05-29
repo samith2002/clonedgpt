@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7",
+    "node.js": "^0.0.1-security",
+    "openai": "^4.47.1",
+    "parser": "^0.1.4",
+    "pg": "^8.11.5",
+    "sqlite3": "^5.1.7"
+  }
+}
